@@ -1,0 +1,151 @@
+nav {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #E78E1D;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+}
+
+.body-blog {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.title-blog {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title-blog::after, .title-blog::before {
+    content: '';
+    position: absolute;
+    background-color: #E78E1D;
+    width: 300px;
+    height: 3px;
+    top: 1.5em;
+    margin-top: 4.5rem;
+}
+
+.title-blog::before  {
+    right: 43rem;
+}
+
+.title-blog::after  {
+    left: 43rem;
+}
+
+.container-blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -1%;
+}
+
+.container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31%;
+    height: 60vh;
+}
+
+.container-1 {
+    background-image: url(./img/blog1.png);
+}
+
+.container-2 {
+    background-image: url(./img/blog2.png);
+}
+
+.container-3 {
+    background-image: url(./img/blog3.png);
+}
+
+h2 {
+    border: 2px solid #FFFFFF;
+    width: 15%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.date {
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: smaller;
+    width: 30%;
+}
+
+h3 {
+    margin-left: 20%;
+    color: #FFFFFF;
+    margin-top: -1%;
+    text-transform: uppercase;
+    width: 60%;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -5%;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.div-button {
+    height: 70px;
+    width: 94%;
+    margin-left: 3%;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.button-blog {
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 44px;
+    margin-top: 13px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #DAA219;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+

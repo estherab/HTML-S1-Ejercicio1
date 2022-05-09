@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservas</title>
+        <link rel="stylesheet" href="reservas.css">
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&display=swap" rel="stylesheet">
+    <body class="body-bookings">
+        <nav>
+            <a class="logo" href="index.html"><img src="./img/logo.png" alt="Logo"/></a>
+            <ul>
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                
+                <li>
+                    <a href="concepto.html" class="nav-link">Concepto</a>
+                </li>
+                
+                <li>
+                    <a href="fotos.html" class="nav-link">Fotos</a>     
+                </li>
+                
+                <li>
+                    <a href="menu.html" class="nav-link">Menú</a>
+                </li>
+                
+                <li>
+                    <a href="reservas.html" class="nav-link">Reservas</a>
+                </li>
+                
+                <li>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                
+                <li>
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        <h1 class="title-bookings">Reservas</h1>
+
+        <div class="container-bookings">
+            <div class="div-form">
+                <form
+                    autocomplete="off"
+                    method="post"
+                    class="form">
+                
+                    <label for="people" class="form-label form-text">Personas</label>
+                    <label for="hour" class="form-hour form-text">Hora</label>
+
+                    <select name="f_people" id="people" class="form-select">
+                      <option value="2" class="form-option">2 personas</option>
+                      <option value="3" class="form-option">3 personas</option>
+                      <option value="4" class="form-option">4 personas</option>
+                      <option value="5" class="form-option">5 personas</option>
+                      <option value="6" class="form-option">6 personas</option>
+                    </select>
+
+                    <select name="f_hour" id="hour" class="form-select">
+                        <option value="20.30" class="form-option">20:30</option>
+                        <option value="21.00" class="form-option">21:00</option>
+                        <option value="21.30" class="form-option">21:30</option>
+                        <option value="22.00" class="form-option">22:00</option>
+                        <option value="22.30" class="form-option">22:30</option>
+                        <option value="23.00" class="form-option">23:00</option>
+                        <option value="23.30" class="form-option">23:30</option>
+                        <option value="00.00" class="form-option">00:00</option>
+                      </select>
+
+                    <label for="table" class="form-table form-item form-text">Tipo de mesa</label>
+                    
+                    <select name="f_table" id="table" class="form-tabletype form-item">
+                        <option value="barra" class="form-option">Barra</option>
+                        <option value="sala" class="form-option">Sala</option>
+                    </select>
+
+                    <button type="submit" class="form-button form-item">Reservar</button>
+                </form>
+
+                <div class="bottom-items">
+                    <p class="bottom-item form-text">Si no encuentra disponibilidad, apúntese en la lista de espera</p>
+                    <button type="button" class="bottom-button list-button">Lista de espera</button>
+                    <button type="button" class="bottom-button group-button">Solicitud de grupo</button>
+                </div>
+            </div>
+
+            <div class="booking-text">
+                <h2>Mozzabar</h2>
+                <h3>Food & drinks</h3>
+                <hr>
+                <p>Conde de Peñalver, 64 <br>28006, Madrid <br>Abrimos de lunes a domingo <br>de 07:30 a 01:30</p>
+            </div>
+        </div>
+    </body>
+</html>

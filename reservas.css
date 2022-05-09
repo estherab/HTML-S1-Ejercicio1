@@ -1,0 +1,171 @@
+.body-bookings {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/fondo-reservas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Anek Telugu', sans-serif;
+} 
+
+nav {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #E78E1D;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+}
+
+.title-bookings {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container-bookings {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.form {
+    width: 30rem;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: 1.5rem 2rem 1.5rem 3rem 3rem;
+}
+
+.booking-text {
+    width: 30%;
+    margin-left: 2rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #DAA219;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -40px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+hr {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 150px;
+    border: 0;
+    margin-top: -20px;
+    margin-left: 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+.form-select {
+    width: 13rem;
+}
+
+.form-tabletype {
+    width: 28rem;
+    margin-top: 0;
+    height: 2rem;
+}
+
+.form-item {
+    grid-column: 1/2;
+    margin-top: 1rem;
+}
+
+.bottom-items {
+    width: 28rem;
+    margin-top: 2rem;
+}
+
+.bottom-button {
+    width: 28rem;
+    height: 2rem;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+.form-text {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.group-button {
+    margin-top: 0.5rem;
+}
+
+.form-option, button {
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: solid 1px black;
+}
+
+.form-button {
+    width: 28rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+select {
+   outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
